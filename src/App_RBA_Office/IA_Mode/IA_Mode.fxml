@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../Design/Design.css" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App_RBA_Office.IA_Mode.IA_Mode_Ct">
+   <children>
+      <Label layoutX="173.0" layoutY="14.0" text="Information Accessing Mode" underline="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="question" focusColor="LIME" layoutX="27.0" layoutY="76.0" prefHeight="30.0" prefWidth="546.0" promptText="Type the question that you want to ask" unFocusColor="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="452.0" layoutY="323.0" onAction="#Ask" prefHeight="63.0" prefWidth="134.0" text="Ask">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="323.0" onAction="#Clear" prefHeight="63.0" prefWidth="134.0" text="Clear">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXTextArea fx:id="answer" editable="false" focusColor="LIME" layoutX="27.0" layoutY="131.0" prefHeight="150.0" prefWidth="546.0" text="Successfully Logged in IA Mode&#10;Waiting for Questions............" unFocusColor="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

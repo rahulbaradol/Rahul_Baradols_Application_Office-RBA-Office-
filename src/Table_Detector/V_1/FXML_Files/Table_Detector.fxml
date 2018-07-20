@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="main" stylesheets="@../Design/Design_1.css" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Table_Detector.V_1.Java_Cts.Table_Detector_Ct">
+   <children>
+      <AnchorPane prefHeight="465.0" prefWidth="380.0">
+         <children>
+            <Label fx:id="mainHeading" layoutX="106.0" layoutY="14.0" text="Table Detector" underline="true">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="reset" layoutX="14.0" layoutY="18.0" prefHeight="31.0" prefWidth="38.0" text="R" />
+            <JFXButton fx:id="help" layoutX="328.0" layoutY="18.0" prefHeight="31.0" prefWidth="38.0" text="?" />
+            <JFXButton fx:id="showTable" layoutX="239.0" layoutY="391.0" prefHeight="60.0" prefWidth="127.0" text="Show Table">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="exit" layoutX="14.0" layoutY="391.0" prefHeight="60.0" prefWidth="127.0" text="Exit">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="value" focusColor="LIME" labelFloat="true" layoutX="14.0" layoutY="75.0" prefHeight="31.0" prefWidth="346.0" promptText="Enter the number, that you want to show that number's table" unFocusColor="WHITE" />
+            <JFXTextArea fx:id="answer" focusColor="LIME" layoutX="14.0" layoutY="125.0" prefHeight="235.0" prefWidth="346.0" unFocusColor="WHITE" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextArea>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@StyleSheet.css" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Standard_Digital_Clock.Standard_Digital_Clock_Ct">
+   <children>
+      <MenuBar layoutX="1.0" layoutY="1.0" prefHeight="25.0" prefWidth="598.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#Exit" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#About" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <JFXButton layoutX="14.0" layoutY="328.0" onAction="#Exit" prefHeight="58.0" prefWidth="108.0" text="Exit">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="showTime" alignment="CENTER" layoutX="14.0" layoutY="103.0" prefHeight="147.0" prefWidth="569.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="533.0" layoutY="265.0" onAction="#Refresh" prefHeight="34.0" prefWidth="50.0" text="Button">
+         <graphic>
+            <MaterialDesignIconView glyphName="AUTORENEW" size="26" />
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

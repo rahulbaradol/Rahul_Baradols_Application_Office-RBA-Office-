@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="about" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App_RBA_Office.Java_Ct.About_Ct">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../Design/Design.css">
+         <children>
+            <Label layoutX="114.0" layoutY="14.0" text="Rahul Baradol's Application Office - About" underline="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="126.0" text="In this application, you can access through applications developed by Rahul">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="151.0" text="Baradol.">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="208.0" text="This application is free to use and THANKS for your support.">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="325.0" text="This application is developed by">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="350.0" text="Rahul Baradol">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="back" layoutX="14.0" layoutY="16.0" onAction="#Back" prefHeight="27.0" prefWidth="38.0" text="&lt;-" />
+            <JFXButton layoutX="445.0" layoutY="318.0" onAction="#Information_Accessing_Mode" prefHeight="65.0" prefWidth="141.0" text="IA Mode">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="27.0" layoutY="71.0" text="Version 2.0" underline="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="461.0" layoutY="60.0" onAction="#Whats_New" prefHeight="47.0" prefWidth="110.0" text="What's New" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="welcome" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App_RBA_Office.Java_Ct.Welcome_Ct">
+   <children>
+      <AnchorPane onMouseClicked="#Load_RBA_Office" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="74.0" layoutY="14.0" text="Welcome to Rahul Baradol's Application Office" underline="true">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="description" layoutX="247.0" layoutY="320.0" text="Click to Continue">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

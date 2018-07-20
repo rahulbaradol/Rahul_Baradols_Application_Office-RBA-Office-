@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Standard_Calculator.V_1_1.About_Cr">
+   <children>
+      <Label layoutX="45.0" layoutY="14.0" text="About Standard Calculator" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="description_1" layoutX="14.0" layoutY="106.0" text="This application is used to calculate the numbers" />
+      <Label fx:id="description_2" layoutX="14.0" layoutY="123.0" text="with nice user interface." />
+      <Label fx:id="description_3" layoutX="14.0" layoutY="148.0" text="Thanks for using our application Standard" />
+      <Label fx:id="description_4" layoutX="14.0" layoutY="165.0" text="Calculator." />
+      <Label fx:id="description_5" layoutX="14.0" layoutY="249.0" text="This application is developed by" />
+      <Label fx:id="description_6" layoutX="14.0" layoutY="266.0" text="Rahul Baradol">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="64.0" text="Version 1.1" />
+      <JFXButton fx:id="whats_new_and_help" layoutX="189.0" layoutY="55.0" onAction="#Whats_New" prefHeight="35.0" prefWidth="95.0" text="What's New" />
+      <Label fx:id="description_1_help" layoutX="17.0" layoutY="123.0" opacity="0.0" prefHeight="20.0" prefWidth="159.0" text="What's new in Version 1.1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="description_2_help" layoutX="16.0" layoutY="155.0" opacity="0.0" text="1. Bug Fixes">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="description_3_help" layoutX="16.0" layoutY="182.0" opacity="0.0" text="2. Improvements">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="description_4_help" layoutX="16.0" layoutY="210.0" opacity="0.0" text="3. New User Interface at the starting">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
