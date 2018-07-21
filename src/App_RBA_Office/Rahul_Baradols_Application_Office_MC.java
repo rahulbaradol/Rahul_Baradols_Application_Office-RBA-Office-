@@ -26,10 +26,6 @@ public class Rahul_Baradols_Application_Office_MC extends Application {
         }
     }
 
-    public static void main(String[] args) {
-
-    }
-
     @Override
     public void stop() {
         Alert exit = new Alert(Alert.AlertType.INFORMATION);
