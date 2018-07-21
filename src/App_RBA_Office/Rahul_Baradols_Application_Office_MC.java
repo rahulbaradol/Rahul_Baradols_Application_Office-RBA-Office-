@@ -27,7 +27,7 @@ public class Rahul_Baradols_Application_Office_MC extends Application {
     }
 
     @Override
-    public void stop() throws Exception {
+    public void stop() {
         Alert exit = new Alert(Alert.AlertType.INFORMATION);
 
         exit.setTitle("RBA Office");
