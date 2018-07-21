@@ -27,7 +27,7 @@ public class Rahul_Baradols_Application_Office_MC extends Application {
     }
 
     public static void main(String[] args) {
-
+        launch(args);
     }
 
     @Override
